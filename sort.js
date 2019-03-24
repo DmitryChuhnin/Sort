@@ -20,11 +20,6 @@ for (let i =0; i < mass.length; i++){
     }
 }
 let q = x.reverse();
-for(let h = 0; h < q.length; h++){
-    if(q[h] !== 0){
-        console.log(q[h] + " ");
-    }
-}
 let f1 = r.filter(Boolean);
 let f2 = q.filter(Boolean);
 alert(f1+", "+f2);
